@@ -5,12 +5,12 @@ require_relative 'lib/Codebreaker/version'
 Gem::Specification.new do |spec|
   spec.name          = 'Codebreaker'
   spec.version       = Codebreaker::VERSION
-  spec.authors       = ['']
-  spec.email         = ['']
+  spec.authors       = ['KarpovskyiD']
+  spec.email         = ['karpovskyi.d@gmail.com']
 
   spec.summary       = 'Codebreaker gem'
   spec.description   = 'Codebreaker gem'
-  spec.homepage      = 'https://github.com/kolisnyklera/codebreaker_test'
+  spec.homepage      = 'https://github.com/KarpovskyiD/CodebreakerGem'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.7.1')
 
@@ -25,7 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'fasterer'
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'rubocop'
-  spec.add_development_dependency 'simplecov'
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
